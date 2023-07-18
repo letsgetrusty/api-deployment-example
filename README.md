@@ -10,6 +10,7 @@
     POSTGRES_PASSWORD=postgrespw
     ```
     `NOTE:` When deploying the API, make sure to change the default PostgreSQL password.
+4. Update `docker-compose.yml` and change `letsgetrusty` to your own Docker Hub username. 
 
 ## Run Locally
 1. Run an instance of PostgreSQL. This can be done via Docker:
