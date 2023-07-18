@@ -1,7 +1,7 @@
 FROM messense/rust-musl-cross:x86_64-musl as chef
 ENV SQLX_OFFLINE=true
 RUN cargo install cargo-chef
-WORKDIR /rust-api-deployment-example
+WORKDIR /api-deployment-example
 
 FROM chef AS planner
 # Copy source code from previous stage
